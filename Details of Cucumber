@@ -85,6 +85,8 @@ GITHUB repository location to access the code:- https://github.com/Jatin9995/Cuc
 6) git config --global user.email "jatin9995@gmail.com"
 
 7) git commit -m "first commit" //to commit the code from staging area to local git repository
+8) git push -u origin master//  to push files from local git repository to GItHub repository
+9) git pull origin master //to get the files from github repository to local repository
 
 
 
