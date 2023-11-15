@@ -70,17 +70,21 @@ GITHUB repository location to access the code:- https://github.com/Jatin9995/Cuc
 
 ##################commands used in git GIT Bash################################
 
-git init //to create local git repository
+1) git init //to create local git repository
 
-git remote add origin  +locaton of the GITHUB repoitory  //it is used to link local repository with git hub repository
+2) git remote add origin  +locaton of the GITHUB repoitory  //it is used to link local repository with git hub repository
 
-git status // to know the state of the repository (untracked (red color)) and tracked file (green color)
+3) git status // to know the state of the repository (untracked (red color)) and tracked file (green color)
 
-git add -A // to add files from working directory to staging area as the files are untracked. after adding the files it will be tracked by git state command and color will be changed to green
-
-
+4) git add -A // to add files from working directory to staging area as the files are untracked. after adding the files it will be tracked by git state command and color will be changed to green
 
 
+//one time command before first committ from staging area to local git repository
+
+5) git config --global user.name "Jatin9995"
+6) git config --global user.email "jatin9995@gmail.com"
+
+7) git commit -m "first commit" //to commit the code from staging area to local git repository
 
 
 
