@@ -1,0 +1,97 @@
+package testlogin.featuesfiles;
+
+public class detailsofcucumberofcucumber {
+	
+	//BDD- behaviour driven development.BDD me test cases natural english language me likhi jaati hai taaki non-technical person bhi ise padh sake.
+	//BDD me Given-When-Then language me test cases likhe jaate hai.BDD me mainly application k behaviour ko capture kiya jata hai.
+	//Given:- preconditions or initial context
+	//When:- Event or trigger.
+	//Then:- Expected output.
+	//Example:Given :- URL of the login page is open
+	//when:- user enter the user name and password and click on login button
+	//Then:-Home page shall open. 
+	//BDD is used to test the end to end application behaviour. Cucumber ek tool hai jo BDD k liye use kiya jata hai. It explain the behavior of the application in a simple
+	//english text using Gherkin language.
+	//Cucumber me application k behaviour ko feature file me describe kiya jata hai. feature file ka extenion ".feature" hot hai and ek feature file me sirf ek feature hota hai.
+	//Important terms used in gerkins language:-
+	//Feature[Summary]
+	//Background[define steps that are common to all the tests in the feature file.]
+	//scenario[Title]
+	//And[add conditions to your steps]
+	//But[add negative type comments]
+	//Scenario outline examples:-used for data driven testing
+	
+	//Session 8
+	---------------------------------------------------
+	Execute test case using pom.xml within eclipse
+	Execute test cases outside eclipse using maven (a build tool)
+	a) Command Line Interface (CLI):- to check if maven in installed in system. to command prompt me likh hai:- mvn -version
+	*apne project par jaane k liye command prompt pe type karo:- cd path of the project
+	CLI par drive change karne k liye:- J:
+	*command prompt se test case run karne k liye:- mvn test
+		
+	b) Batch File:- file ka name.bat   me save karna hai. file k andar command likhna hai
+	*apne project par jaane k liye command prompt pe type karo:- cd path of the project
+	*command prompt se test case run karne k liye:- mvm test
+	c) Jenkins
+	
+	
+	//Session 11
+	------------------------------------------------------------------------------------------
+	1 what is GIT and GIThup?
+	2 How to install GIT software
+	3 Hwo to commit code to GIT repository
+	4 How ot puch code to GITHub repository?
+	5 How to integrate  GitHup & Jenkins
+	
+	GIT and GITHUB hum source code maintain karne k liye use karte hai.GIT or GIThub dono alag alag cheeze hai.
+	GIt ko hum system me istall karte hai or GIThub hamara remote repository hota hai.s
+	Jab bhi tester ya developer code lkhta hai to uska source code  initially working directory/workspace me hota hai.
+	uske baad aata hai Staging area. workspace se code hum direct GIT repository me bhej nahi sakta. uske pehle hume code staging area me add karna hota hai.
+	uske baad aata hai GIt repository jo hamare local machine me istall hota hai.  uske baad aaata hai GITHUB repository to ki remote
+	repository hota hai.
+	
+#########################	workflow   #################################33
+
+1. Workspace/working directory > (Adding code) stageing area > (Commit code) GIT Repository > (push code) GITHUB repository
+ 
+2. Workspace pull code directly from GIThub Repository.
+
+for adding code to staging area:- git add command
+for committing code to git local repository:- add commit command
+for sending code to github repository from git repository:- git push
+for taking code from github repository:- git pull
+
+
+github mail id-jatin9995@gmail.com
+user name :- Jatin9995
+Password:- Playboy@37
+GITHUB repository location to access the code:- https://github.com/Jatin9995/Cucumberframework.git
+
+##################commands used in git GIT Bash################################
+
+git init //to create local git repository
+
+git remote add origin  +locaton of the GITHUB repoitory  //it is used to link local repository with git hub repository
+
+git status // to know the state of the repository (untracked (red color)) and tracked file (green color)
+
+git add -A // to add files from working directory to staging area as the files are untracked. after adding the files it will be tracked by git state command and color will be changed to green
+
+
+
+
+
+
+
+ 
+	
+	
+	
+	
+	
+	
+	
+
+
+}

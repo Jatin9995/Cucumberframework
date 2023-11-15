@@ -1,0 +1,50 @@
+2023-11-07 01:08:41 INFO  BaseClass:49 - Chrome Launched
+2023-11-07 01:08:46 INFO  BaseClass:77 - website URL Launched
+2023-11-07 01:08:49 INFO  BaseClass:87 - User id & Password provided
+2023-11-07 01:08:53 INFO  BaseClass:97 - Clicked on login button
+2023-11-07 01:08:56 INFO  BaseClass:109 - Page title verified
+2023-11-07 01:09:27 INFO  BaseClass:49 - Chrome Launched
+2023-11-07 01:09:32 INFO  BaseClass:77 - website URL Launched
+2023-11-07 01:09:35 INFO  BaseClass:87 - User id & Password provided
+2023-11-07 01:09:40 INFO  BaseClass:97 - Clicked on login button
+2023-11-07 01:09:43 INFO  BaseClass:109 - Page title verified
+2023-11-07 01:09:45 FATAL BaseClass:121 - Clicked on logout button
+2023-11-07 01:09:48 INFO  BaseClass:109 - Page title verified
+2023-11-14 22:38:54 INFO  BaseClass:64 - Chrome Launched
+2023-11-14 22:39:01 INFO  BaseClass:95 - website URL Launched
+2023-11-14 22:39:05 INFO  BaseClass:107 - User id & Password provided
+2023-11-14 22:39:12 INFO  BaseClass:118 - Clicked on login button
+2023-11-14 22:39:15 INFO  BaseClass:132 - Page title verified
+2023-11-14 22:39:38 INFO  BaseClass:64 - Chrome Launched
+2023-11-14 22:39:47 INFO  BaseClass:95 - website URL Launched
+2023-11-14 22:39:50 INFO  BaseClass:107 - User id & Password provided
+2023-11-14 22:39:58 INFO  BaseClass:118 - Clicked on login button
+2023-11-14 22:40:01 INFO  BaseClass:132 - Page title verified
+2023-11-14 22:40:02 FATAL BaseClass:144 - Clicked on logout button
+2023-11-14 22:40:05 INFO  BaseClass:132 - Page title verified
+2023-11-14 22:45:31 INFO  BaseClass:64 - Chrome Launched
+2023-11-14 22:45:36 INFO  BaseClass:95 - website URL Launched
+2023-11-14 22:45:40 INFO  BaseClass:107 - User id & Password provided
+2023-11-14 22:45:45 INFO  BaseClass:118 - Clicked on login button
+2023-11-14 22:45:48 INFO  BaseClass:132 - Page title verified
+2023-11-14 22:45:50 FATAL BaseClass:144 - Clicked on logout button
+2023-11-14 22:45:53 INFO  BaseClass:132 - Page title verified
+2023-11-14 22:50:21 INFO  BaseClass:64 - Chrome Launched
+2023-11-14 22:50:28 INFO  BaseClass:95 - website URL Launched
+2023-11-14 22:50:31 INFO  BaseClass:108 - User id & Password provided
+2023-11-14 22:50:37 INFO  BaseClass:119 - Clicked on login button
+2023-11-14 22:50:40 INFO  BaseClass:133 - Page title verified
+2023-11-14 22:50:42 FATAL BaseClass:145 - Clicked on logout button
+2023-11-14 22:50:45 INFO  BaseClass:133 - Page title verified
+2023-11-14 22:57:45 INFO  BaseClass:64 - Chrome Launched
+2023-11-14 22:57:51 INFO  BaseClass:95 - website URL Launched
+2023-11-14 22:57:55 INFO  BaseClass:108 - User id & Password provided
+2023-11-14 22:58:02 INFO  BaseClass:119 - Clicked on login button
+2023-11-14 22:58:05 INFO  BaseClass:133 - Page title verified
+2023-11-14 22:58:33 INFO  BaseClass:64 - Chrome Launched
+2023-11-14 22:58:38 INFO  BaseClass:95 - website URL Launched
+2023-11-14 22:58:41 INFO  BaseClass:108 - User id & Password provided
+2023-11-14 22:58:48 INFO  BaseClass:119 - Clicked on login button
+2023-11-14 22:58:51 INFO  BaseClass:133 - Page title verified
+2023-11-14 22:58:52 FATAL BaseClass:145 - Clicked on logout button
+2023-11-14 22:58:55 INFO  BaseClass:133 - Page title verified

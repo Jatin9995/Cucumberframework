@@ -1,0 +1,7 @@
+POMPackage\LoginPOM.class
+POMPackage\AddNewCustomer.class
+POMPackage\SearchCustomerByName.class
+POMPackage\SearchCustomerByMail.class
+StepRunner\TestRunner.class
+StepDefinition\BaseClass.class
+StepDefinition\StepDef.class
