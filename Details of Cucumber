@@ -45,20 +45,20 @@ public class detailsofcucumberofcucumber {
 	5 How to integrate  GitHup & Jenkins
 	
 	GIT and GITHUB hum source code maintain karne k liye use karte hai.GIT or GIThub dono alag alag cheeze hai.
-	GIt ko hum system me istall karte hai or GIThub hamara remote repository hota hai.s
+	GIt ko hum system me istall karte hai or GIThub hamara remote repository hota hai.
 	Jab bhi tester ya developer code lkhta hai to uska source code  initially working directory/workspace me hota hai.
 	uske baad aata hai Staging area. workspace se code hum direct GIT repository me bhej nahi sakta. uske pehle hume code staging area me add karna hota hai.
-	uske baad aata hai GIt repository jo hamare local machine me istall hota hai.  uske baad aaata hai GITHUB repository to ki remote
+	uske baad aata hai GIt repository jo hamare local machine me istall hota hai.  uske baad aaata hai GITHUB repository jo ki remote
 	repository hota hai.
 	
 #########################	workflow   #################################33
 
 1. Workspace/working directory > (Adding code) stageing area > (Commit code) GIT Repository > (push code) GITHUB repository
  
-2. Workspace pull code directly from GIThub Repository.
+2. Workspace/working diectory pull code directly from GIThub Repository.
 
 for adding code to staging area:- git add command
-for committing code to git local repository:- add commit command
+for committing code to git local repository:- git commit command
 for sending code to github repository from git repository:- git push
 for taking code from github repository:- git pull
 
@@ -67,8 +67,9 @@ github mail id-jatin9995@gmail.com
 user name :- Jatin9995
 Password:- Playboy@37
 GITHUB repository location to access the code:- https://github.com/Jatin9995/Cucumberframework.git
+GITHUB repository location to access the code2 for test purpose:-https://github.com/Jatin9995/testcucumberrepsitory.git
 
-##################commands used in git GIT Bash################################
+##################Commands used in git GIT Bash################################
 
 1) git init //to create local git repository
 
@@ -76,7 +77,7 @@ GITHUB repository location to access the code:- https://github.com/Jatin9995/Cuc
 
 3) git status // to know the state of the repository (untracked (red color)) and tracked file (green color)
 
-4) git add -A // to add files from working directory to staging area as the files are untracked. after adding the files it will be tracked by git state command and color will be changed to green
+4) git add -A // to add files from working directory to staging area as the files are untracked. after adding the files it will be tracked by git status command and color will be changed to green
 
 
 //one time command before first committ from staging area to local git repository
