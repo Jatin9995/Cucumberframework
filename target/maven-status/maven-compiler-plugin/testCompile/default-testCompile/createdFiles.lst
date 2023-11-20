@@ -1,4 +1,5 @@
 POMPackage\LoginPOM.class
+StepDefinition\CloseBrowserStepDef.class
 POMPackage\AddNewCustomer.class
 POMPackage\SearchCustomerByName.class
 POMPackage\SearchCustomerByMail.class

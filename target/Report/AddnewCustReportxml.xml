@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="76.505">
-    <testcase classname="Customer" name="Add New Customer" time="50.593">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="70.736">
+    <testcase classname="Customer" name="Add New Customer" time="44.643">
         <system-out>
             <![CDATA[Given User launch chrome broswer............................................passed
 When User open URL as "https://admin-demo.nopcommerce.com/login"............passed
@@ -18,7 +18,7 @@ And user close the browser..................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Login to nopcommerce.com" name="Login with Valid credentials" time="25.352">
+    <testcase classname="Login to nopcommerce.com" name="Login with Valid credentials" time="25.743">
         <system-out>
             <![CDATA[Given User launch chrome broswer............................................passed
 When User open URL as "https://admin-demo.nopcommerce.com/login"............passed
