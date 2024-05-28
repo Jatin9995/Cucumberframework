@@ -156,6 +156,7 @@
     <version>1.10.1</version>
 </dependency>
 
+
     
   </dependencies>
 
@@ -182,6 +183,9 @@
           <version>3.0.0-M7</version>
           <configuration>
 			  <testFailureIgnore>true</testFailureIgnore>
+			  <includes>
+				  <include>**/*TestRunner.java</include>
+			  </includes>
 		  </configuration>
         </plugin>
         <plugin>

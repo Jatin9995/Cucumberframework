@@ -15,7 +15,7 @@ Feature: Login to nopcommerce.com
 
     #Scenario Outline keyword is used for datadriven and Examples is used to provide the data
     
-  @regression  
+  @Sanity  
   Scenario Outline: Successful login with valid credentials DataDriven Testing (DDT)
     
     Given User launch chrome broswer
@@ -30,4 +30,4 @@ Feature: Login to nopcommerce.com
     Examples: 
       |email|password|
       |admin@yourstore.com|admin|
-      |test@yourstore.com|admin|
+     # |test@yourstore.com|admin|

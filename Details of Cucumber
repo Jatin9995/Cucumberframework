@@ -1,6 +1,3 @@
-package testlogin.featuesfiles;
-
-public class detailsofcucumberofcucumber {
 	
 	//BDD- behaviour driven development.BDD me test cases natural english language me likhi jaati hai taaki non-technical person bhi ise padh sake.
 	//BDD me Given-When-Then language me test cases likhe jaate hai.BDD me mainly application k behaviour ko capture kiya jata hai.
@@ -29,11 +26,29 @@ public class detailsofcucumberofcucumber {
 	*apne project par jaane k liye command prompt pe type karo:- cd path of the project
 	CLI par drive change karne k liye:- J:
 	*command prompt se test case run karne k liye:- mvn test
+	
+	-----------------xxxxxxxxxxx--------------
+	process to rum test from CLI (means outside of the eclipse)
+	(1). write on CLI  -- cd location of your project
+	(2) mvn test
+	follow above process to run the test from CLI through maven
+	------------
 		
 	b) Batch File:- file ka name.bat   me save karna hai. file k andar command likhna hai
 	*apne project par jaane k liye command prompt pe type karo:- cd path of the project
 	*command prompt se test case run karne k liye:- mvm test
+	-------------------xxxxxxxxxxxxxxxxxxxxxxx----------------
+	cd J:\eclipse_Jdrive\TestBDD
+	mvn test
+	
+	Save the above code in .bat file.
+	------------------------xxxxxxxxxxxxxxxxxxxxxxxx-------------
+	
+	
+	
 	c) Jenkins
+	ID:-admin
+	Password:-admin
 	
 	
 	//Session 11
@@ -41,13 +56,13 @@ public class detailsofcucumberofcucumber {
 	1 what is GIT and GIThup?
 	2 How to install GIT software
 	3 Hwo to commit code to GIT repository
-	4 How ot puch code to GITHub repository?
+	4 How to puch code to GITHub repository?
 	5 How to integrate  GitHup & Jenkins
 	
 	GIT and GITHUB hum source code maintain karne k liye use karte hai.GIT or GIThub dono alag alag cheeze hai.
 	GIt ko hum system me istall karte hai or GIThub hamara remote repository hota hai.
 	Jab bhi tester ya developer code lkhta hai to uska source code  initially working directory/workspace me hota hai.
-	uske baad aata hai Staging area. workspace se code hum direct GIT repository me bhej nahi sakta. uske pehle hume code staging area me add karna hota hai.
+	uske baad aata hai Staging area. Workspace se code hum direct GIT repository me bhej nahi sakte. uske pehle hume code staging area me add karna hota hai.
 	uske baad aata hai GIt repository jo hamare local machine me istall hota hai.  uske baad aaata hai GITHUB repository jo ki remote
 	repository hota hai.
 	
@@ -57,10 +72,10 @@ public class detailsofcucumberofcucumber {
  
 2. Workspace/working diectory pull code directly from GIThub Repository.
 
-for adding code to staging area:- git add command
-for committing code to git local repository:- git commit command
-for sending code to github repository from git repository:- git push
-for taking code from github repository:- git pull
+for adding code to staging area:- git add command= git add -A
+for committing code to git local repository:- git commit command = git commit -m "First committ"
+for sending code to github repository from git repository:- git push= git push -u origin master
+for taking code from github repository:- git pull=git pull origin maaster
 
 
 github mail id-jatin9995@gmail.com

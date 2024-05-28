@@ -21,9 +21,9 @@ public class LoginPOM {
 	WebElement logout;
 
 
-	public LoginPOM(WebDriver iDriver) {
+	public LoginPOM(WebDriver driver) {
 
-		this.driver=iDriver;
+		this.driver=driver;
 		PageFactory.initElements(driver, this);
 
 }
